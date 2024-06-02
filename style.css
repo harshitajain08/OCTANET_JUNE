@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+.top{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(https://t4.ftcdn.net/jpg/06/57/20/69/360_F_657206985_7JnPZxrSIP9L6Pk3dyf9i8ljFEpv8iqZ.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.top .overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(237, 239, 236, 0.256);
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+    position: absolute;
+    width: 100%;
+    padding: 0 10vh;
+    color: rgb(28, 71, 1);
+    bottom: 5%;
+}
+.text h1{
+    font-weight: 600;
+    font-size: 3vw;
+}
+.text .image{
+    background-image: url(https://www.vaniperen.com/wp-content/uploads/2021/12/Plants-for-Plants-header-young-plant-fruit-growing-1440x710.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 600px;
+}
+.rtext{
+    display: inline;
+    width: 25%;
+    align-items: start;
+    justify-content: space-between;
+}
+.rtext p{
+    font-size: 12px;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+}
+.b1{
+    width: 30%;
+    min-height: inherit;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi816RZ8nMfvYLzjt8nTecdIIHbMWDIVM0Uw&s);
+    background-size: cover;
+    background-position: center;
+}
+.b1 h1{
+    text-align: center;
+    padding: 30px;
+}
+.b1 p{
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+.b2{
+    width: 30%;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+.b2 .up{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://png.pngtree.com/background/20211215/original/pngtree-modern-simple-elegant-landing-page-website-background-picture-image_1455134.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b2 .up h1{
+    text-align: center;
+    padding: 30px;
+}
+.b2 .up p{
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+.b2 .down{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzO2_J8wPAQ_BCLuEZvqQWDMFs8WSs_Pmlgg&s);
+}
+.b2 .down .overlay{
+    position: relative;
+    width: 100%;
+    min-height: 20vh;
+    background-color: rgba(255, 255, 255, 0.323);
+}
+.b3{
+    width: 40%;
+    min-height: inherit;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRek4I4JaowDOVlxKtjwI3wNe_0w00tL9EoeA&s);
+    background-position: center;
+}
+.b3 .overlay{
+    justify-content: right;
+    position: absolute;
+    margin-left: 50%;
+    width: 50%;
+    height: 100%;
+}
+.b3 .overlay{
+    padding: 1.2vh;
+}
