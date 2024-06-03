@@ -28,12 +28,11 @@ html,body{
 .text{
     display: flex;
     justify-content: space-between;
-    align-items: initial;
-    position: absolute;
+    align-items: start;
+    position: relative;
     width: 100%;
     padding: 0 10vh;
     color: rgb(28, 71, 1);
-    bottom: 5%;
 }
 .text h1{
     font-weight: 600;
@@ -102,26 +101,70 @@ html,body{
     width: 100%;
     min-height: 20vh;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzO2_J8wPAQ_BCLuEZvqQWDMFs8WSs_Pmlgg&s);
+    background-size: cover;
+    background-position: center;
 }
 .b2 .down .overlay{
     position: relative;
     width: 100%;
     min-height: 20vh;
     background-color: rgba(255, 255, 255, 0.323);
+    padding: 15px;
 }
 .b3{
     width: 40%;
     min-height: inherit;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRek4I4JaowDOVlxKtjwI3wNe_0w00tL9EoeA&s);
+    background-image: url(https://t3.ftcdn.net/jpg/04/28/51/02/360_F_428510221_f1eVs6BjxpBTvhmyUa3C4k8ExuRwHRum.jpg);
+    background-size: cover;
     background-position: center;
 }
 .b3 .overlay{
     justify-content: right;
-    position: absolute;
+    position: relative;
     margin-left: 50%;
     width: 50%;
     height: 100%;
+    padding: 4vw 3vh;
+    color: aliceblue;
 }
-.b3 .overlay{
+.b3 .overlay p{
     padding: 1.2vh;
+}
+
+@media(max-width:500px){
+    .text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .text h1{
+        font-size: 5vh;
+    }
+    .text .image{
+        height: 200px;
+        width: 140px;
+        margin-top: 20px;
+    }
+    .rtext{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .rtext p{
+        margin: 10px;
+    }
+    .icon{
+        margin-top: 10px;
+    }
+    .bottom{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .b1{
+        width: 100%;
+    }
+    .b2{
+        width: 100%;
+    }
+    .b3{
+        width: 100%;
+    }
 }
